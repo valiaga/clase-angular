@@ -1,6 +1,4 @@
 /**
- * Cada Input es un objecto y es individual.
- * En el caso que se quiera realizar un grupo de objectos, devemos utlizar otra directiva.
  */
 import { Component, OnInit } from '@angular/core';
 

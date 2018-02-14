@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="card">
+    <div class="card-header">Entendiendo Change detection strategy</div>
+    <div class="card-body">
+      <form>
+        <div class="form-group">
+          <label for="name" class="col-form-label col-form-label-sm">Name:</label>
+          <input type="text" id="name" class="form-control form-control-sm" #name>
+        </div>
+          <button (click)="addFood(name.value)" class="btn btn-success btn-sm">Save</button>
+      </form>
+      <div class="container">
+        <les-childs [foods]="foods"></les-childs>
+      </div>
+    </div>
+  </div>
+</div>

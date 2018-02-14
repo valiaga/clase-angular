@@ -8,12 +8,20 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { FormLocalVariableComponent } from './components/form-local-variable/form-local-variable.component';
 import { FormStateObjectComponent } from './components/form-state-object/form-state-object.component';
+import { LesTabGroupComponent } from './shared/tabs/tabs.component';
+import { TabsTestComponent } from './components/tabs-test/tabs-test.component';
+import { ChangeDetectionStrategyComponent } from './components/change-detection-strategy/change-detection-strategy.component';
+import { ChildsComponent } from './components/change-detection-strategy/childs/childs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormLocalVariableComponent,
-    FormStateObjectComponent
+    FormStateObjectComponent,
+    LesTabGroupComponent,
+    TabsTestComponent,
+    ChangeDetectionStrategyComponent,
+    ChildsComponent,
   ],
   imports: [
     BrowserModule,
