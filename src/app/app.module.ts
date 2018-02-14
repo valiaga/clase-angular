@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 // import { CommonModule  } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FormLocalVariableComponent } from './components/form-local-variable/form-local-variable.component';
+import { FormStateObjectComponent } from './components/form-state-object/form-state-object.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormLocalVariableComponent
+    FormLocalVariableComponent,
+    FormStateObjectComponent
   ],
   imports: [
     BrowserModule,
