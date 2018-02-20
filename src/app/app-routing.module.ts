@@ -4,6 +4,9 @@ import { FormLocalVariableComponent } from './components/form-local-variable/for
 import { FormStateObjectComponent } from './components/form-state-object/form-state-object.component';
 import { TabsTestComponent } from './components/tabs-test/tabs-test.component';
 import { ChangeDetectionStrategyComponent } from './components/change-detection-strategy/change-detection-strategy.component';
+import { NgTemplateTestComponent } from './components/ng-template-test/ng-template-test.component';
+import { NgTemplateTest2Component } from './components/ng-template-test-2/ng-template-test-2.component';
+import { NgTemplateTest3Component } from './components/ng-template-test-3/ng-template-test-3.component';
 
 const routes: Routes = [
   {
@@ -21,7 +24,20 @@ const routes: Routes = [
   {
     path: 'change-detection-strategy',
     component: ChangeDetectionStrategyComponent,
+  },
+  {
+    path: 'ng-template-test',
+    component: NgTemplateTestComponent,
+  },
+  {
+    path: 'ng-template-test-2',
+    component: NgTemplateTest2Component,
+  },
+  {
+    path: 'ng-template-test-3',
+    component: NgTemplateTest3Component,
   }
+
 ];
 
 @NgModule({

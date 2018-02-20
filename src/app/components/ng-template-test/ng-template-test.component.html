@@ -1,0 +1,23 @@
+<div *ngIf="false else template">
+</div>
+<ng-template #template let-alimit="limit" >
+  <button class="btn btn-success btn-sm">
+    button 1 {{ alimit }}
+  </button>
+  <button class="btn btn-info btn-sm">
+    button 2
+  </button>
+</ng-template>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="jumbotron">
+      <ng-container *ngTemplateOutlet="template; context: ctx"></ng-container>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="jumbotron">
+      <ng-container *ngTemplateOutlet="template"></ng-container>
+    </div>
+  </div>
+</div>

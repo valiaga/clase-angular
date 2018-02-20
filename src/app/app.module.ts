@@ -12,6 +12,14 @@ import { LesTabGroupComponent } from './shared/tabs/tabs.component';
 import { TabsTestComponent } from './components/tabs-test/tabs-test.component';
 import { ChangeDetectionStrategyComponent } from './components/change-detection-strategy/change-detection-strategy.component';
 import { ChildsComponent } from './components/change-detection-strategy/childs/childs.component';
+import { NgTemplateTestComponent } from './components/ng-template-test/ng-template-test.component';
+import { NgTemplateTest2Component } from './components/ng-template-test-2/ng-template-test-2.component';
+import { ContainerTestComponent } from './components/ng-template-test-2/container-test/container-test.component';
+import { ContainerTest3Component } from './components/ng-template-test-3/container-test3/container-test3.component';
+import { NgTemplateTest3Component } from './components/ng-template-test-3/ng-template-test-3.component';
+import { ContainerList3Component } from './components/ng-template-test-3/container-list3/container-list3.component';
+import { Card3Directive } from './components/ng-template-test-3/card3.directive';
+import { List3Directive } from './components/ng-template-test-3/list3.directive';
 
 @NgModule({
   declarations: [
@@ -22,6 +30,14 @@ import { ChildsComponent } from './components/change-detection-strategy/childs/c
     TabsTestComponent,
     ChangeDetectionStrategyComponent,
     ChildsComponent,
+    NgTemplateTestComponent,
+    NgTemplateTest2Component,
+    ContainerTestComponent,
+    ContainerTest3Component,
+    NgTemplateTest3Component,
+    ContainerList3Component,
+    Card3Directive,
+    List3Directive,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<les-container-list3
+  [items]="items"
+  [mode]="mode">
+  <!-- <ng-template cardItem let-item></ng-template> -->
+  <div *lesCard3="let item">
+      lesCard3
+      {{item | json}}
+  </div>
+  <div *lesList3="let item">
+      {{item.header}}: {{item.content}}
+  </div>
+</les-container-list3>
